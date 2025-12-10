@@ -246,6 +246,8 @@ class label_main(QMainWindow):
 
             # k = k.split('_')[0]
             k = label.split('_')[0]
+            re_label = k+'_'+str(i)                          # to delete the annotated image during using the software
+            self.view.annBBxes[uid]['label'] = re_label      # relabel the stenosis annotaion to match the image_name
             crop_name = img_name.split('.')[0]+'_'+k+'_'+str(i)+'.jpg'
 
             sv_img_pth = os.path.join(sv_pth, crop_name)
