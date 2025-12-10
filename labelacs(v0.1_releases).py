@@ -3,7 +3,7 @@
 # Developer: MA, Kochi University of Technology. 256013s@gs.kochi-tech.ac.jp
 # Python, PyQt, Opencv.
 # Core Function for Annotations.
-# Beta version 0.1.
+# Beta version 0.1, 2025/12/10.
 
 import os
 import uuid
